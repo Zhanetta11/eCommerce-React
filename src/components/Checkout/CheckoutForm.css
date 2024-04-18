@@ -1,0 +1,209 @@
+.checkout_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 37px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 1);  
+    letter-spacing: 0em;
+}
+
+.checkout_title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+
+.personalInfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 37px;
+    width: 41%;
+    /* max-width: 602px; */
+}
+
+.personalInfo_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personalInfo_first-name {
+    width: 45%;
+}
+
+.personalInfo_last-name {
+    width: 48%;
+}
+
+.personalInfo_lable {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.personalInfo_input, .personalInfo_select{
+    width: 100%;
+    height: 75px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    margin-bottom: 30px;
+    padding: 0 30px;
+}
+
+.personalInfo_input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+.productInfo {
+    padding: 87px 38px;
+    width: 50%;
+    /* max-width: 608px; */
+}
+
+.productInfo_pay {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productInfo_pay h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;; 
+}
+
+.productInfo_pay-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.productInfo-subject {
+    color: #9F9F9F;
+}
+
+.productInfo-count {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.productInfo_pay-score {
+    text-align: right;
+}
+
+.total-score {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgba(70, 182, 197, 1);
+}
+
+.productInfo-line {
+    border: 1px solid rgba(187, 203, 202, 1);
+    margin-bottom: 23px;
+}
+
+.productInfo_payInfo {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.productInfo_payInfo-title {
+    font-weight: 400; 
+    margin-bottom: 11px;
+}
+
+.input_bank {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    outline: none;
+}
+
+.input_bank:checked {
+    border: 6px solid black;
+}
+
+.productInfo_payInfo-extraInfo {
+    font-weight: 300;
+    margin-bottom: 25px;
+    color: rgba(159, 159, 159, 1);
+}
+
+.productInfo_payInfo-payway {
+    font-weight: 500;
+    color: rgba(159, 159, 159, 1);
+    margin-bottom: 22px;
+}
+
+.productInfo_payInfo-payway input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    outline: none;
+}
+
+.productInfo_payInfo-payway label{
+    margin-bottom: 11px;
+}
+
+.productInfo_payInfo-payway input:checked {
+    border: 6px solid black;
+}
+
+.productInfo_payInfo-warning {
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.productInfo_payInfo-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productInfo_payInfo-btn button{
+    width: 318px;
+    height: 64px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: white;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.productInfo_payInfo-btn button:hover{
+    background-color: rgb(45, 207, 229);
+    transition: 0.5s all linear;
+}
+
